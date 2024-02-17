@@ -1,0 +1,15 @@
+<!-- Example 1 -->
+<h2>Conditional-slot Content Projection DEMO</h2>
+<span style='font-weight: bold;'>Example 1</span>
+
+<ng-container ngProjectAs="[heading]">
+    <p style='color: brown; text-decoration: underline brown; font-weight: bold;'>Content projection is here... </p>
+</ng-container>
+
+<!-- Example 2 -->
+<p style='font-weight: bold;'>Example 2</p>
+<br>
+Answer:
+<ng-content></ng-content>
+Question:
+<ng-content select="[question]"></ng-content>

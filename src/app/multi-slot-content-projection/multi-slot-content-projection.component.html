@@ -1,0 +1,18 @@
+<h2>Multi-slot Content Projection DEMO</h2>
+<ng-content></ng-content>
+<ng-content select="[anotherContent]"></ng-content>
+
+<!-- Select by Tag Element -->
+<ng-content select="h2"></ng-content>
+<ng-content select="h3"></ng-content>
+<ng-content select="h4"></ng-content>
+
+<!-- Select by ID -->
+<ng-content select="#content1"></ng-content>
+<ng-content select="#content2"></ng-content>
+<ng-content select="#content3"></ng-content>
+
+<!-- Select by CLASS -->
+<ng-content select=".content1"></ng-content>
+<ng-content select=".content2"></ng-content>
+<ng-content select=".content3"></ng-content>
